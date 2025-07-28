@@ -245,17 +245,63 @@ const Main = () => {
       </section>
 
       <section id="contact" className="px-4 sm:px-8 md:px-16 lg:px-16 py-16">
-        <div className="max-w-7xl mx-auto bg-white px-8 md:px-16 lg:px-16 py-16 text-center">
+        <div className="max-w-4xl mx-auto bg-white px-8 md:px-16 py-16 text-center rounded-lg shadow-md">
           <h2 className="text-3xl md:text-4xl font-light mb-8 text-gray-900">
             EXCLUSIVE AVAILABILITY
           </h2>
-          <p className="text-gray-600 mb-5 max-w-2xl mx-auto">
+          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
             Family owned and not for sale. Available for select exhibitions,
-            show rooms, and prestigious auto trade shows.
+            showrooms, and prestigious auto trade shows.
           </p>
-          <button className="border border-gray-900 px-8 py-3 text-sm hover:bg-gray-900 hover:text-white transition-colors text-gray-900 rounded-md">
-            INQUIRE NOW
-          </button>
+
+          <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 text-sm text-gray-700 mt-8 mb-12">
+            <div>
+              <h3 className="font-medium text-gray-900">Contact</h3>
+              <p>Hans S. Kammler</p>
+              <p>Etihad Towers, Abu Dhabi, UAE</p>
+            </div>
+            <div>
+              <h3 className="font-medium text-gray-900">Phone & Skype</h3>
+              <p>
+                <a href="tel:+971506088088" className="hover:underline">
+                  +971 5060 88088
+                </a>
+              </p>
+              <p>Skype: oeko-k</p>
+            </div>
+            <div>
+              <h3 className="font-medium text-gray-900">Email</h3>
+              <p>
+                <a
+                  href="mailto:vote4solar@gmail.com"
+                  className="text-blue-600 hover:underline"
+                >
+                  vote4solar@gmail.com
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div className="flex justify-center gap-4 flex-wrap">
+            <a
+              href="mailto:vote4solar@gmail.com"
+              className="bg-gray-900 text-white px-6 py-2 text-sm rounded-md hover:bg-gray-700 transition"
+            >
+              Send Email
+            </a>
+            <a
+              href="tel:+971506088088"
+              className="border border-gray-900 text-gray-900 px-6 py-2 text-sm rounded-md hover:bg-gray-900 hover:text-white transition"
+            >
+              Call Now
+            </a>
+            <a
+              href="skype:oeko-k?chat"
+              className="border border-gray-900 text-gray-900 px-6 py-2 text-sm rounded-md hover:bg-gray-900 hover:text-white transition"
+            >
+              Chat on Skype
+            </a>
+          </div>
         </div>
       </section>
     </div>
