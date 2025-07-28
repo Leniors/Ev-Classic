@@ -116,7 +116,7 @@ const Main = () => {
 
       <section
         id="process"
-        className="min-h-screen px-4 sm:px-8 md:px-16 lg:px-24 py-16 "
+        className="min-h-screen px-4 sm:px-8 md:px-16 lg:px-24 py-16"
       >
         <section className="max-w-7xl mx-auto bg-white">
           <h2 className="text-3xl md:text-4xl font-light mb-16 text-center text-gray-900">
@@ -156,11 +156,11 @@ const Main = () => {
                   loading="lazy"
                   className="object-cover absolute w-full h-full left-0 top-0 transition-transform duration-500 group-hover:scale-110 filter grayscale group-hover:grayscale-0"
                 />
-                <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
-                  <h3 className="text-2xl font-light mb-2 text-white">
+                <div className="absolute inset-0 flex flex-col justify-end p-4 sm:p-6 md:p-8 bg-gradient-to-t from-black/80 via-black/30 to-transparent">
+                  <h3 className="text-xl sm:text-2xl font-light mb-1 sm:mb-2 text-white">
                     {item.title}
                   </h3>
-                  <p className="text-lg text-white transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
+                  <p className="text-sm sm:text-base text-white transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0 line-clamp-3">
                     {item.text}
                   </p>
                 </div>
@@ -244,10 +244,7 @@ const Main = () => {
         </section>
       </section>
 
-      <section
-        id="contact"
-        className="px-4 sm:px-8 md:px-16 lg:px-16 py-16"
-      >
+      <section id="contact" className="px-4 sm:px-8 md:px-16 lg:px-16 py-16">
         <div className="max-w-7xl mx-auto bg-white px-8 md:px-16 lg:px-16 py-16 text-center">
           <h2 className="text-3xl md:text-4xl font-light mb-8 text-gray-900">
             EXCLUSIVE AVAILABILITY

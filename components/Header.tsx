@@ -21,7 +21,7 @@ const Header = () => {
           href="#home"
           className="text-xl md:text-2xl font-bold tracking-wide text-white hover:text-gray-800 transition"
         >
-          EV Classic World
+          EV Classic
         </a>
 
         {/* Desktop Navigation */}
