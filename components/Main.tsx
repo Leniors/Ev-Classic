@@ -246,12 +246,17 @@ const Main = () => {
 
       <section id="contact" className="px-4 sm:px-8 md:px-16 lg:px-16 py-16">
         <div className="max-w-4xl mx-auto bg-white px-8 md:px-16 py-16 text-center rounded-lg shadow-md">
-          <h2 className="text-3xl md:text-4xl font-light mb-8 text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-light mb-4 text-gray-900">
             EXCLUSIVE AVAILABILITY
           </h2>
-          <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Family owned and not for sale. Available for select exhibitions,
-            showrooms, and prestigious auto trade shows.
+          <p className="text-gray-600 mb-4 max-w-2xl mx-auto">
+            A rare opportunity to own a fully restored 1917 Rauch & Lang
+            Electric Car. This historical masterpiece is now available for
+            private acquisition.
+          </p>
+          <p className="text-xl font-medium text-gray-800 mb-8">
+            <span className="text-gray-500">Starting at</span>{" "}
+            <span className="text-green-700">$350,000</span>
           </p>
 
           <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 text-sm text-gray-700 mt-8 mb-12">
